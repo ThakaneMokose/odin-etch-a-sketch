@@ -13,3 +13,9 @@ for(let x = 0; x < 16; x++){
     container.appendChild(row);
 }
 
+const cells = document.querySelectorAll(".col");
+cells.forEach(cell=>{
+    cell.addEventListener("mouseover",()=>{
+        cell.style.backgroundColor="darkmagenta";
+    });
+});
