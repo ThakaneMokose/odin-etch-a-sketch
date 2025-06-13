@@ -1,15 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 .container{
     display: flex;
-    border: 2px black solid; 
     flex-direction: column;
-
+    gap: 1px;
+    width: 100vmin;
+    height: 100vmin;
+    margin: 0 auto;
 }
 .row{
-    border: 1px red solid; 
     display: flex;
+    gap: 1px;
 }
 .col{
-    height: 48px;
     flex: 1;
-    border: 0.5px navy solid;
+    background-color: cornflowerblue;
+    aspect-ratio: 1/1;
 }
